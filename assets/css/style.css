@@ -123,9 +123,15 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(21, 34, 43, 0.85);
+  background: rgba(240, 244, 248, 1);
   padding: 10px 0;
+  border-bottom: 1px solid #b2b6b7;
 }
+
+#header.header-scrolled .justify-content-between .navbar>ul>li>a {
+  color: #121d24;
+}
+
 
 #header .logo {
   font-size: 32px;
@@ -141,7 +147,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 70px;
 }
 
 /*--------------------------------------------------------------
@@ -184,6 +190,7 @@ h6 {
   color: rgba(255, 255, 255, 0.9);
   white-space: nowrap;
   transition: 0.3s;
+  
 }
 
 .navbar a i,
